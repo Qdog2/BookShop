@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    "hello"
+    "home page, nav bar for account and shop (implement swipe), sort books have searchability, purchase history for user possibly"
   );
 }
 
