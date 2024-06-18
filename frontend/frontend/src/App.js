@@ -1,9 +1,12 @@
-
+import React from 'react';
 import './App.css';
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    "home page, nav bar for account and shop (implement swipe), sort books have searchability, purchase history for user possibly"
+    <div>
+        <Navbar />
+    </div>
   );
 }
 
