@@ -3,7 +3,7 @@
 function About() {
 
     return (
-        <p>about page</p>
+        <p>The BookStore is a place for the community to buy books!</p>
     )
 
 }
