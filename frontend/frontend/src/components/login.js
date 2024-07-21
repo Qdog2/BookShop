@@ -3,7 +3,7 @@
 function Login() {
 
     return (
-        <p>login page</p>
+        <p>login page, make basic login</p>
     )
 
 }
