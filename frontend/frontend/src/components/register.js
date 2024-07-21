@@ -3,7 +3,7 @@
 function Register() {
 
     return (
-        <p>register page</p>
+        <p>register page, create, update (route to /id# for update), or delete account here</p>
     )
 
 }
