@@ -12,7 +12,6 @@ function App() {
   return (
     <div>
 
-        <p>Home Page Here, must login/register</p>
             <div>
 
 
