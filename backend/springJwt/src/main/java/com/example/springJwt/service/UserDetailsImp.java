@@ -15,6 +15,8 @@ public class UserDetailsImp implements UserDetailsService {
 
     public UserRepository email;
 
+    public UserRepository account;
+
     public UserDetailsImp(UserRepository repository) {
         this.repository = repository;
     }
