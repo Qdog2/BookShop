@@ -19,6 +19,8 @@ public class UserDetailsImp implements UserDetailsService {
 
     public UserRepository admin;
 
+    public UserRepository moderator;
+
     public UserDetailsImp(UserRepository repository) {
         this.repository = repository;
     }
