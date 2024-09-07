@@ -23,6 +23,8 @@ public class UserDetailsImp implements UserDetailsService {
 
     public UserRepository role;
 
+    public UserRepository application;
+
     public UserDetailsImp(UserRepository repository) {
         this.repository = repository;
     }
