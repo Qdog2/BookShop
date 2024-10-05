@@ -41,6 +41,8 @@ public class UserDetailsImp implements UserDetailsService {
 
     public UserRepository thesis;
 
+    public UserRepository intro;
+
     public UserDetailsImp(UserRepository repository) {
         this.repository = repository;
     }
