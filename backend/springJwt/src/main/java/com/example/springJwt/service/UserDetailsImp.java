@@ -45,6 +45,8 @@ public class UserDetailsImp implements UserDetailsService {
 
     public UserRepository album;
 
+    public UserRepository song;
+
     public UserDetailsImp(UserRepository repository) {
         this.repository = repository;
     }
