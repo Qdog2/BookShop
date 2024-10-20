@@ -13,41 +13,7 @@ public class UserDetailsImp implements UserDetailsService {
     public UserRepository user;
     public UserRepository password;
 
-    public UserRepository email;
 
-    public UserRepository account;
-
-    public UserRepository admin;
-
-    public UserRepository moderator;
-
-    public UserRepository role;
-
-    public UserRepository application;
-
-    public UserRepository job;
-
-    public UserRepository username;
-
-    public UserRepository security;
-
-    public UserRepository question;
-
-    public UserRepository answer;
-
-    public UserRepository paragraph;
-
-    public UserRepository essay;
-
-    public UserRepository thesis;
-
-    public UserRepository intro;
-
-    public UserRepository album;
-
-    public UserRepository song;
-
-    public UserRepository single;
 
     public UserDetailsImp(UserRepository repository) {
         this.repository = repository;
