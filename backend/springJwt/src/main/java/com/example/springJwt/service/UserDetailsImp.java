@@ -19,6 +19,8 @@ public class UserDetailsImp implements UserDetailsService {
 
     public UserRepository pause;
 
+    public UserRepository uhd;
+
     public UserDetailsImp(UserRepository repository) {
         this.repository = repository;
     }
