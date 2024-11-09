@@ -23,6 +23,8 @@ public class UserDetailsImp implements UserDetailsService {
 
     public UserRepository quality;
 
+    public UserRepository qualify;
+
     public UserDetailsImp(UserRepository repository) {
         this.repository = repository;
     }
